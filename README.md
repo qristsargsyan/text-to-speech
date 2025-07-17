@@ -13,6 +13,7 @@ Play, pause, and stop the speech output
 Clean, responsive interface suitable for desktop and mobile use
 
 
+
 🛠️ **How to Use**
 
 Run the app
@@ -33,11 +34,13 @@ Use Pause or Stop as needed.
 
 
 
+
 🧪 **Demo**
 
 Try the prototype online:
 
  👉 [Open demo](https://qristsargsyan.github.io/text-to-speech/)
+
 
 # 🤝  **Development Support** 
 
