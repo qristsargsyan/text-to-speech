@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PDF to Speech Converter</title>
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>PDF to Speech Converter</h1>
+
+    <div class="upload-area" id="dropZone">
+      <i class="fas fa-file-pdf"></i>
+      <p>Drag & drop your PDF here or</p>
+      <label for="fileInput" class="btn">Choose File</label>
+      <input type="file" id="fileInput" accept="application/pdf">
+    </div>
+
+    <div class="controls">
+      <button id="play" class="control-btn" disabled>
+        <i class="fas fa-play"></i> Play
+      </button>
+      <button id="pause" class="control-btn" disabled>
+        <i class="fas fa-pause"></i> Pause
+      </button>
+      <button id="stop" class="control-btn" disabled>
+        <i class="fas fa-stop"></i> Stop
+      </button>
+    </div>
+
+    <div class="text-container" id="textContainer">
+      <div class="placeholder">
+        <i class="fas fa-book-open"></i>
+        <p>PDF text will appear here after upload...</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
