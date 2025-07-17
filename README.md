@@ -12,6 +12,7 @@ Play, pause, and stop the speech output
 
 Clean, responsive interface suitable for desktop and mobile use
 
+
 🛠️ **How to Use**
 
 Run the app
@@ -29,6 +30,7 @@ Click the “Play” button to hear the speech.
 
 
 Use Pause or Stop as needed.
+
 
 
 🧪 **Demo**
